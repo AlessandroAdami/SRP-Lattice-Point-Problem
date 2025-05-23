@@ -5,7 +5,7 @@ from manim import *
 output_dir = "./media"
 
 # Delete the folder of media you do not need
-if os.path.exists(output_dir): shutil.rmtree(output_dir)
+#if os.path.exists(output_dir): shutil.rmtree(output_dir)
 
 class tCircle(Scene):
     def construct(self):

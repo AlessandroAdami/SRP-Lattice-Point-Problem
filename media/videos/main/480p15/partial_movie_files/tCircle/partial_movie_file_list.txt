@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/tCircle/3934537784_1768786653_1902306291.mp4'
+file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/tCircle/1045785911_1048372040_1018148072.mp4'
+file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/tCircle/1045785911_2408024828_1492584150.mp4'
