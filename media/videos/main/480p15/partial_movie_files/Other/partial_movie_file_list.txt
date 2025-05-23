@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/Other/3934537784_842080312_223132457.mp4'
-file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/Other/1045785911_2408024828_3830471341.mp4'

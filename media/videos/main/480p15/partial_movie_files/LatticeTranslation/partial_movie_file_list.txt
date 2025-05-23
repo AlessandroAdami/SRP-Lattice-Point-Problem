@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/LatticeTranslation/3934537784_1381709945_1745023734.mp4'
+file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/LatticeTranslation/1045785911_4163987987_2593663548.mp4'
+file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/LatticeTranslation/1045785911_1969055050_3449409021.mp4'
+file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/LatticeTranslation/1045785911_1492355480_1282743689.mp4'
+file 'file:C:/Users/adams/Desktop/projects/SRP-Lattice-Point-Problem/media/videos/main/480p15/partial_movie_files/LatticeTranslation/1045785911_2408024828_464067361.mp4'
