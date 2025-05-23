@@ -1,2 +1,2 @@
 
-[View LaTeX Showcase](latex_showcase.ipynb)
+[View LaTeX Showcase](showcase.ipynb)
