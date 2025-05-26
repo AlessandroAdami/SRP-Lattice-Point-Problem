@@ -8,7 +8,7 @@ This work was done during the summer reading program (SRP) at the University of 
 
 The problem can be describe as below. Let $tD$ be the disk of radius $t$ in the $\mathbb{R}^2$ plane (i.e. $D$ is the unit disk, etc.). Let
 
-$$N(t) := \#\{tD \cap \mathbb{Z}^2\}.$$
+$$N(t) := |\{tD \cap \mathbb{Z}^2\}|.$$
 
 So $N(t)$ is the number of lattice points contained in the disk of radius $t$. Intuitively, $N(t) \approx \pi t^2$ or $N(t) = \pi t^2 + E(t)$. The goal is then to find a bound for $E(t)$. This version of problem (also referred to as the "Gauss Circle" problem) is the one we focused on, but there are many different version that consider other shapes and dimensions.
 
@@ -34,20 +34,20 @@ binding the aforementioned error term.
 **Exercise 12.2 form Alex Iosevich's book.** 
 
 Let $\chi_tD(x):\mathbb{Z}^2 \to \{0,1\}$ s.t. $\chi_tD(x) = 1$ if $x$ is in the disk of radius $t$ centered at $(0,0)$ in the $\mathbb{Z}^2$, and $0$ otherwise. Define
-
+$$
 \begin{align}
     N(t) &= \sum_{n\in\mathbb{Z}^2} \chi_t D(n) \\
     N_x(t) &= \sum_{n\in\mathbb{Z}^2} \chi_t D(x-n)
 \end{align}
-
+$$
 For $x\in\mathbb{R}^2$. Our goal is to show that $(2)$ is a periodic function. More explicitly, $N(t)_x = N(t)_{x+m}$ for any $m\in\mathbb{Z}^2$.
-
+$$
 \begin{align*}
     N(t)_{x+m} &= \sum_{n\in\mathbb{Z}^2} \chi_tD(x+m-n) \\
     &= \sum_{l\in\mathbb{Z}^2} \chi_tD(x-l) &\text{Let $l = n-m\in\mathbb{Z}^2$}\\
     &= \sum_{n\in\mathbb{Z}^2} \chi_tD(x-n) = N_x(t)
 \end{align*}
-
+$$
 ![Demo Animation Two](media/gifs/LatticeTranslation.gif)
 
 If we change the coordinates of our center $x$ (in $\mathbb{R}^2$) by integer values, the disk at the new center contains the same number of lattice points as the one before the move.
