@@ -38,18 +38,18 @@ Let $\chi_tD(x):\mathbb{Z}^2 \to \{0,1\}$ s.t. $\chi_tD(x) = 1$ if $x$ is in the
 $$
 \begin{align}
     N(t) &= \sum_{n\in\mathbb{Z}^2} \chi_t D(n) \\
-    N_x(t) &= \sum_{n\in\mathbb{Z}^2} \chi_t D(x-n)
+    N(t,x) &= \sum_{n\in\mathbb{Z}^2} \chi_t D(x-n)
 \end{align}
 $$
 
-For $x\in\mathbb{R}^2$. Our goal is to show that $(2)$ is a periodic function. More explicitly, $N(t)_x = N(t)_{x+m}$ for any $m\in\mathbb{Z}^2$.
+For $x\in\mathbb{R}^2$. Our goal is to show that $N(t,x)$ is a periodic function. More explicitly, $N(t,x) = N(t,x+m)$ for any $m\in\mathbb{Z}^2$.
 
 $$
-\begin{align*}
-    N(t)_{x+m} &= \sum_{n\in\mathbb{Z}^2} \chi_tD(x+m-n) \\
+\begin{align}
+    N(t,x+m) &= \sum_{n\in\mathbb{Z}^2} \chi_tD(x+m-n) \\
     &= \sum_{l\in\mathbb{Z}^2} \chi_tD(x-l) &\text{Let $l = n-m\in\mathbb{Z}^2$}\\
-    &= \sum_{n\in\mathbb{Z}^2} \chi_tD(x-n) = N_x(t)
-\end{align*}
+    &= \sum_{n\in\mathbb{Z}^2} \chi_tD(x-n) = N(t,x)
+\end{align}
 $$
 
 ![Demo Animation Two](media/gifs/LatticeTranslation.gif)
